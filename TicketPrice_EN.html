@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html manifest="index.manifest">
+<head>
+<title>票價表</title>
+
+<meta http-equiv="Content-Type" content="text/cache-manifest; charset=UTF-8" />
+<meta id="viewport" name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="CSS/Style.css" rel="stylesheet" type="text/css">
+
+<!-- 隱藏網址列 開始 -->
+<script>
+window.addEventListener("load" || "orientationchange", function () { setTimeout('window.scrollTo(0,1);', 1); }, false);
+</script>
+<!-- 隱藏網址列 結束 -->
+
+<!-- 呼叫 jQuery 開始 -->
+<script type="text/javascript" src="JS/jquery.js"></script>
+<!-- 呼叫 jQuery 結束 -->
+
+<!-- 選單Script開始 -->
+<script type="text/javascript">
+$(function () {	
+	$('[data-Tab]').click(function () { 
+	var $div = $(this);
+	$('nav div').removeClass("AT");
+		 $div.addClass('AT');
+        });		
+    });
+</script>
+<!-- 選單Script結束 --> 
+
+<script language="javascript">
+$(function(){
+	$('#p1').click(function(){
+		$('html,body').animate({scrollTop: '0px'}, 200);
+	}); 
+	
+	$('#p2').click(function(){
+		$('html,body').animate({scrollTop:$('#a2').offset().top - 60 + 'px'}, 400);
+	});
+	
+	$('#p3').click(function(){
+		$('html,body').animate({scrollTop:$('#a3').offset().top}, 400);
+	});
+	
+});
+</script>
+
+</head>
+
+<body class="l7" >
+
+<section >
+<header>
+<nav>
+    <div class="m1 AT" data-Tab><a href="javascript:;" id="p1">Da-Zhi</a></div>
+    <div class="m2" data-Tab><a href="javascript:;" id="p2">Tai Mall</a></div>
+    <div class="m3" data-Tab><a href="javascript:;" id="p3">Info</a></div>
+</nav>
+</header>
+
+<article>
+<!-- 大直影城 開始 -->
+<span id="a1"></span>  
+ <div class="name">Miramar Cinemas Da-Zhi</div>  
+ <div class="content">
+ 
+	<div class="price">
+     <div class="title">Standard Films / M CLUB / AURO</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="33%" class="t1 border_left">Early Bird Ticket</td>
+    <td width="34%" class="t1">Adult Ticket</td>
+    <td width="33%" class="t1">Concession Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$260</td>
+    <td class="t1_nt">NT$310</td>
+    <td class="t1_nt">NT$290</td>
+  </tr>
+</table>
+    </div>
+    
+    <div class="price-B">
+     <div class="title-B">Digital 3D</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="33%" class="t2 border_left">Early Bird Ticket</td>
+    <td width="34%" class="t2">Adult Ticket</td>
+    <td width="33%" class="t2">Concession Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$330</td>
+    <td class="t1_nt">NT$380</td>
+    <td class="t1_nt">NT$360</td>
+  </tr>
+</table>
+    </div>
+    
+    <div class="price">
+     <div class="title">IMAX</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" class="t1 border_left">Adult Ticket</td>
+    <td width="50%" class="t1">Concession Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$380</td>
+    <td class="t1_nt">NT$360</td>
+  </tr>
+</table>
+    </div>
+    
+    <div class="price-B">
+     <div class="title-B">IMAX 3D</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" class="t2 border_left">Adult Ticket</td>
+    <td width="50%" class="t2">Concession Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$440</td>
+    <td class="t1_nt">NT$410</td>
+  </tr>
+</table>
+    </div>
+    
+    <ul>
+     <li>Ticket price for IMAX films with a duration in excess of 2hrs 30 mins will increase by NT$20.</li>   
+     <li>Ticket price for standard、M CLUB、AURO、digital 3D films with a duration in excess of 2hrs 30 mins will increase by NT$10.</li>   
+    </ul>
+
+    <div class="price">
+     <div class="title">Ticket fare table</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="t1 border_left">&nbsp;</td>
+    <td class="t1-s">Digital<br>3D</td>
+    <td class="t1-s">IMAX</td>
+    <td class="t1-s">IMAX<br>3D</td>
+  </tr>
+  <tr>
+    <td class="t2-s border_left">Corporate movie saver</td>
+    <td rowspan="2" class="t3">NT$<span>90</span></td>
+    <td rowspan="2" class="t3">NT$<span>130</span></td>
+    <td rowspan="2" class="t3">NT$<span>180</span></td>
+  </tr>
+  <tr>
+    <td class="t2-s border_left">Value movie saver</td>
+    </tr>
+  <tr>
+    <td colspan="4" class="table">
+      <ul>
+        <li>Ticket price for IMAX films with a duration in excess of 2hrs 30 mins will increase by NT$20.</li>
+        <li>Ticket price for standard、M CLUB、AURO、digital 3D films with a duration in excess of 2hrs 30 mins will increase by NT$10.</li>
+      </ul>
+    </td>
+    </tr>
+     </table>
+    </div>  
+   </div> 
+<!-- 大直影城 結束 -->
+ <hr>
+
+<!-- 台茂影城 開始 -->
+<span id="a2"></span>  
+  <div class="content">
+    <div class="name">Miramar Cinemas Tai Mall</div>
+	<div class="price">
+     <div class="title">Standard Films</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="33%" class="t1 border_left">Early Bird Ticket</td>
+    <td width="34%" class="t1">Adult Ticket</td>
+    <td width="33%" class="t1">Concession Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$250</td>
+    <td class="t1_nt">NT$300</td>
+    <td class="t1_nt">NT$280</td>
+  </tr>
+</table>
+    </div>
+    
+    <div class="price-B">
+     <div class="title-B">Digital 3D</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="33%" class="t2 border_left">Early Bird Ticket</td>
+    <td width="34%" class="t2">Adult Ticket</td>
+    <td width="33%" class="t2">Concession Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$320</td>
+    <td class="t1_nt">NT$370</td>
+    <td class="t1_nt">NT$350</td>
+  </tr>
+</table>
+    </div>
+    
+    <div class="price">
+     <div class="title">Royal Club</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" class="t1 border_left">Adult Ticket</td>
+    <td width="50%" class="t1">Combo Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$500</td>
+    <td class="t1_nt">NT$550</td>
+  </tr>
+</table>
+    </div>
+    
+    <div class="price-B">
+     <div class="title-B">Royal Club Digital 3D</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="34%" class="t2 border_left">Adult Ticket</td>
+    <td width="33%" class="t2">Combo Ticket</td>
+  </tr>
+  <tr>
+    <td class="t1_nt border_left">NT$570</td>
+    <td class="t1_nt">NT$620</td>
+  </tr>
+</table>
+    </div>
+    
+    <ul>
+     <li>Ticket price for standard、digital 3D and Royal Club films with a duration in excess of 2hrs 30 mins will increase by NT$10.</li>   
+    </ul>
+
+    <div class="price">
+     <div class="title">Ticket fare table</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="t1 border_left">&nbsp;</td>
+    <td class="t1-s">Digital<br>3D</td>
+    <td class="t1-s">Royal Club</td>
+    <td class="t1-s">Royal Club<br>Digital 3D</td>
+  </tr>
+  <tr>
+    <td class="t2-s border_left">Corporate movie saver</td>
+    <td rowspan="2" class="t3">NT$<span>80</span></td>
+    <td rowspan="2" class="t3">NT$<span>320</span></td>
+    <td rowspan="2" class="t3">NT$<span>390</span></td>
+  </tr>
+  <tr>
+    <td class="t2-s border_left">Value movie saver</td>
+    </tr>
+  <tr>
+    <td colspan="4" class="table">
+      <ul>
+        <li>Ticket price for standard, digital 3D and Royal Club films with a duration in excess of 2hrs 30 mins will increase by NT$10.</li>
+        <li>Corporate/Value movie saver cannot be used to purchase Royal Club films on the website. If paying by voucher for any Royal Club movie, customer can only upgrade to the RC Combo Ticket.</li>
+      </ul>
+    </td>
+    </tr>
+     </table>
+    </div>  
+  </div>
+<!-- 台茂影城 結束 -->
+ <hr>
+
+<!-- 注意事項 開始 -->
+<span id="a3"></span>  
+  <div class="content">
+    <h1>Information</h1>
+    <ul>
+      <li>Please do not bring hot food into the auditoriums.</li>
+      <li>Present your over 65 ID and you can purchase one discount ticket each time. The discount ticket will require proof of identification when collecting tickets and is not available for Royal Club.</li>
+      <li>Present your Disabled ID card and you can purchase two disabled discount tickets each time. The disabled discount ticket will require proof of identification when collecting tickets and is not available for Royal Club.</li>
+      <li>Please present a valid concession ID when purchasing concession tickets.</li>
+      <li>Children above the height of 90cm must purchase tickets.</li>
+      <li>Please check your tickets and count your change before leaving the counter. The cinema will not be responsible thereafter.</li>
+      <li>Refunds and exchange of tickets will only be accepted 20 minutes prior to the advertised session time.</li>
+    </ul>
+  </div>
+<!-- 注意事項 結束 -->
+    
+  </article>
+</section>
+</body>
+</html>

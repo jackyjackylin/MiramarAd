@@ -1,0 +1,241 @@
+﻿body {
+	background:#f5f5f5;
+	padding:0px;
+	margin:0px auto;
+	font-family:  "黑體", Verdana, "微軟正黑體", "新細明體", Arial, Geneva, sans-serif;	
+	text-align: left;
+	font-size: 15px;
+	line-height:1.4em;
+	
+	}
+	
+
+/********************* l7 開始 *********************/
+body.l7 section {
+	display: block;
+	vertical-align: top;	
+	margin: 0px auto;
+	text-align:justify;
+	}
+	
+body.l7 article{
+	margin:0px auto ;
+	padding:50px 12px 0;
+	}
+	
+	
+/*選單*/
+nav{
+	width:100%;	
+	position:fixed;
+	vertical-align:top;
+	top:0px;
+	background-color:#d72837;
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+	box-shadow: 0px 3px 4px rgba(0,0,0,0.3);
+	text-align:center;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	}
+nav a {
+	border-right:1px solid #ffffff;
+	display:block;
+	font-size: 1.047em;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	line-height:43px;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-user-select: none;
+	}
+nav div {
+	display:block;
+	padding:0px;
+	float:left;
+	width:33%;
+	margin:0px;
+	white-space: nowrap;
+	overflow:hidden;
+}
+nav div:nth-child(2) {
+	width:34%;
+	}
+nav .AT{
+	text-align: center;
+	margin: 0px auto;
+	background-color:#ffffff;
+}
+nav .AT a{
+	color: #d72837;
+}
+	
+body.l7 article .content{
+	}	
+		
+body.l7 article .name{
+	padding: 17px 0;
+	font-weight: bold;
+	text-align:center;
+	font-size: 1.4em;
+	letter-spacing:0.5px;
+	color:#5a5a5a;
+}	
+.content h1{	
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	text-align:center;
+	font-size: 1.4em;
+	letter-spacing:0.5px;
+	color:#d72837;
+	}	
+	
+.content .price{
+	margin: 0px 0px 13px;
+}
+.content .price .title{
+	background: #e8364c;
+	color: #ffffff;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align:center;
+	padding: 4px 0px;
+	border: 1px #ffffff dotted;
+	margin-bottom: 5px;
+}
+.content .notice{	
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align:center;
+}
+.content .notice a{
+	text-decoration:none;
+	color:#d72837;
+	border-style:solid;
+	border-width:1px;
+	padding:8px 20px;
+}
+.content .price-B{
+	margin: 0px 0px 30px;
+}
+.content .price-B .title-B{
+	color: #e8364c;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align:center;
+	padding: 0px 0px 4px;
+}
+.l7 table{
+	text-align: center;
+}
+
+.t1{
+	padding: 4px 0px;
+	background:#3081c4;
+	color: #ffffff;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-top:1px solid #c1c1c1;
+	border-bottom:1px solid #c1c1c1;
+	border-right:1px solid #c1c1c1;
+}
+.t2{
+	padding: 4px 0px;
+	background:#dfdfdf;
+	color: #5a5a5a;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-top:1px solid #c1c1c1;
+	border-bottom:1px solid #c1c1c1;
+	border-right:1px solid #c1c1c1;
+}
+.t3{
+	padding: 4px 0px;
+	background:#fff;
+	color: #5a5a5a;
+	font-size: 0.8em;
+	font-weight: bold;
+	border-bottom:1px solid #c1c1c1;
+	border-right:1px solid #c1c1c1;
+}
+.t3 span{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.t1_nt{
+	padding: 8px 0px;
+	background:#ffffff;
+	color: #5a5a5a;
+	font-size: 1.2em;
+	line-height:;
+	border-bottom:1px solid #c1c1c1;
+	border-right:1px solid #c1c1c1;
+}
+.t1-s{
+	padding: 4px 0px;
+	background:#3081c4;
+	color: #ffffff;
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height:1.2em;
+	border-top:1px solid #c1c1c1;
+	border-bottom:1px solid #c1c1c1;
+	border-right:1px solid #c1c1c1;
+}
+.t2-s{
+	padding: 4px 0px;
+	background:#dfdfdf;
+	color: #5a5a5a;
+	font-size: 0.8em;
+	font-weight: bold;
+	border-bottom:1px solid #c1c1c1;
+	border-right:1px solid #c1c1c1;
+}
+.border_left{
+	border-left:1px solid #c1c1c1;
+	}
+
+.l7 .tb1{
+	 margin:0px;}		
+		
+.l7 ul li {
+	font-size: 1em;
+	color:#5a5a5a;
+	padding:0px 0 5px;
+	text-align: left;
+	}
+.l7 ul{
+	margin: 0px 0px 30px -20px;
+	}		
+
+.l7 .table{
+	background:#fff;
+	border-right:1px solid #c1c1c1;
+	border-bottom:1px solid #c1c1c1;
+	border-left:1px solid #c1c1c1;
+	}
+.l7 .table ul li {
+	font-size:0.8em;
+	color:#5a5a5a;
+	background:#fff;
+	padding: 5px 5px 0px 0px;
+	text-align: left;
+	}
+.l7 .table ul{
+	margin: 0px 0px 5px -15px;
+	}		
+
+	
+.footer{
+	padding:0px;
+	}
+
+hr{
+	height:1px; 
+	border:none; 
+	color:#c9c9c9; 
+	background-color:#c9c9c9;
+	margin: 30px 0px 15px;
+	}
